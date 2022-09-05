@@ -81,7 +81,7 @@ div {
     display: block;
 }
 
-@media (max-width: 514px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 44px;
     }
@@ -101,5 +101,22 @@ div {
         padding: 0;
         text-align: center;
         text-size-adjust: 100%;
+    }
+
+    p {
+        text-align: center;
+            line-height: 1.7;
+    }
+
+    .btn-branding-outline {
+        display: block;
+        text-align: center;
+        padding: 15px 30px;
+        }
+    .row {
+        text-align: center;
+    }
+    .mb-5 {
+        margin-bottom: 3rem !important;
     }
 }
