@@ -27,7 +27,7 @@ h2 {
 p {
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 30px;
 }
 
 .hero {
@@ -87,29 +87,32 @@ div {
     }
     h2 {
         font-size: 44px;
+        /* display: block; */
+        margin-top: 0;
     }
 
     .hero {
         padding: 80px 20px;
     }
 
-    .col-6 {
-        align-items: center;
+    .col {
+        /* align-items: center; */
+        flex: 1 0 0%;
     }
 
     .project-description {
         padding: 0;
         text-align: center;
-        text-size-adjust: 100%;
+        /* text-size-adjust: 100%; */
     }
 
     p {
         text-align: center;
-            line-height: 1.7;
+        line-height: 1.7;
     }
 
     .btn-branding-outline {
-        display: block;
+        display: inline-block;
         text-align: center;
         padding: 15px 30px;
         }
@@ -117,6 +120,6 @@ div {
         text-align: center;
     }
     .mb-5 {
-        margin-bottom: 3rem !important;
+        margin-bottom: 3rem;
     }
 }
