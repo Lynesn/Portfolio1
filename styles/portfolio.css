@@ -36,7 +36,7 @@ p {
     padding: 160px 20px;
 }
 
-.about-section {
+.content {
     text-align: center;
     padding: 0;
 }
@@ -55,21 +55,32 @@ p {
     line-height: 1.5;
 }
 
-.about-section {
+.content-container {
     padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content h3 {
+    font-size: 24px;
+    line-height: 1;
+    margin: 20px 0 0;
+    font-family: var(--default-font-family);
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.content {
     margin: 30px;
 }
 .btn-branding {
@@ -99,7 +110,32 @@ p {
     --bs-gutter-y: 0;
 }
 
+.rounded {
+    border-radius: 0.25rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+}
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    margin: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.mb-3 {
+    margin: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
 
  
 
@@ -120,6 +156,11 @@ p {
 
     .col {
         flex: 1 0 0%;
+    }
+
+    .content {
+        text-align: center;
+        padding: 0;
     }
 
     .project-description {
